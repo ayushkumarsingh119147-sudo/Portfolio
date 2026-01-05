@@ -5,41 +5,9 @@ import Image from "next/image";
 import { Github, ExternalLink, ChevronLeft, ChevronRight } from "lucide-react";
 
 // Z: Each project will now have an images array (one or more images).
-const projects = [
+const projects = [ 
   {
     id: 1,
-    title: "Hallever E-Commerce Platform",
-    description:
-      "Full-stack e-commerce platform using Next.js for the frontend, Firebase as the database, and a backend powered by Node.js, Express, and JavaScript. Features include Stripe integration, JWT authentication, and a robust admin dashboard.",
-    tech: ["Next.js", "Node.js", "Express.js", "JavaScript", "Firebase", "Stripe"],
-    images: [
-      "/images/project/hallever2.png",
-      "/images/project/hallever1.png",
-      "/images/project/hallever3.png",
-    ],
-    github: "github.com/madhvi209/hallever",
-    demo: "hallever-ecru.vercel.app",
-  },
-  {
-    id: 2,
-    title: "GREEN ENERGY WEBSITE | Dynamic Business Platform",
-    description: [
-      "Responsive website for sustainability-focused company.",
-      "Admin dashboard for blogs and products.",
-      "Modular content supporting scalable updates."
-    ].join('\n'),
-    tech: ["Next.js", "Tailwind CSS", "MongoDB", "Node.js", "Admin Dashboard"],
-    images: [
-      "/images/project/green1.png",
-      "/images/project/green2.png",
-       "/images/project/green3.png",
-      "/images/project/green4.png"
-    ],
-    github: "github.com/madhvi209/green_energy",
-    demo: "https://green-energy-ruddy.vercel.app",
-  },
-  {
-    id: 3,
     title: "Job Portal",
     description:
       "Role-based job portal built with the MERN stack for students and companies. Students can search, filter, and apply for jobs with a personalized dashboard. Employers can post job listings and manage applications securely.",
@@ -52,7 +20,7 @@ const projects = [
     demo: "jobportal-35u8.onrender.com",
   },
   {
-    id: 4,
+    id: 2,
     title: "CHAT APP",
     description:
       "A real-time chat application where two users can send and receive messages instantly using Socket.io. Features a clean and responsive UI built with React, secure authentication workflow with JWT for login-based access, and a Node.js backend that manages chat rooms and message delivery. The application uses MongoDB for data storage and ensures a seamless messaging experience.",
@@ -63,31 +31,6 @@ const projects = [
     ],
     github: "github.com/madhvi209/chatApp",
     demo: "https://chatapp-fp4r.onrender.com",
-  },
-  {
-    id: 5,
-    title: "Weather App",
-    description:
-      "Weather forecasting application with geolocation, multiple weather sources, and detailed analytics.",
-    tech: ["React.js", "REST API", "Tailwind CSS", "Context API"],
-    images: [
-      "/mongodb-database-design.jpg"
-    ],
-    github: "#",
-    demo: "#",
-  },
-  {
-    id: 6,
-    title: "Blog Platform",
-    description:
-      "Content management system with markdown support, categories, comments, and admin panel.",
-    tech: ["Next.js", "MongoDB", "Tailwind CSS", "Authentication"],
-    images: [
-      "/typescript-programming.png",
-      "/blog-admin-preview.png"
-    ],
-    github: "#",
-    demo: "#",
   },
   // Add more projects if needed for additional pages
 ];

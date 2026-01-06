@@ -227,7 +227,7 @@ export default function HeroSection() {
                                 />
                                 {/* The circular photo */}
                                 <Image
-                                    src="/images/"
+                                    src="/images/ayush.JPG"
                                     alt="Developer"
                                     fill
                                     className="rounded-full object-cover shadow-xl z-10 border-8 border-white/80"
